@@ -8,10 +8,10 @@ A SQL project analyzing the data engineer job market using real world job postin
 
 ## 🧾 Executive Summary (For Hiring Managers)
 
-- ✅ **Project scope:** Built **3 analytical queries** that answer key questions about the data engineer job market  
-- ✅ **Data modeling:** Used **multi-table joins** across fact and dimension tables to extract insights  
-- ✅ **Analytics:** Applied **aggregations, filtering, and sorting** to find top skills by demand, salary, and overall value  
-- ✅ **Outcomes:** Delivered **actionable insights** on SQL/Python dominance, cloud trends, and salary patterns
+-  **Project scope:** Built **3 analytical queries** that answer key questions about the data engineer job market  
+-  **Data modeling:** Used **multi-table joins** across fact and dimension tables to extract insights  
+-  **Analytics:** Applied **aggregations, filtering, and sorting** to find top skills by demand, salary, and overall value  
+- **Outcomes:** Delivered **actionable insights** on SQL/Python dominance, cloud trends, and salary patterns
 
 If you only have a minute, review these:
 
@@ -21,17 +21,17 @@ If you only have a minute, review these:
 
 ---
 
-## 🧩 Problem & Context
+## Problem & Context
 
 Job market analysts need to answer questions like:
 
-- 🎯 **Most in-demand:** *Which skills are most in-demand for data engineers?*  
-- 💰 **Highest paid:** *Which skills command the highest salaries?*  
-- ⚖️ **Best trade-off:** *What is the optimal skill set balancing demand and compensation?*  
+-  **Most in-demand:** *Which skills are most in-demand for data engineers?*  
+-  **Highest paid:** *Which skills command the highest salaries?*  
+- **Best trade-off:** *What is the optimal skill set balancing demand and compensation?*  
 
 This project analyzes a **data warehouse** built using a star schema design. The warehouse structure consists of:
 
-![Data Warehouse Schema](../../Resources/images/1_2_Data_Warehouse.png)
+![Data Warehouse Schema](../images/1_2_Data_Warehouse.png)
 
 - **Fact Table:** `job_postings_fact` - Central table containing job posting details (job titles, locations, salaries, dates, etc.)
 - **Dimension Tables:** 
@@ -43,17 +43,17 @@ By querying across these interconnected tables, I extracted insights about skill
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
-- 🐤 **Query Engine:** DuckDB for fast OLAP-style analytical queries  
-- 🧮 **Language:** SQL (ANSI-style with analytical functions)  
-- 📊 **Data Model:** Star schema with fact + dimension + bridge tables  
-- 🛠️ **Development:** VS Code for SQL editing + Terminal for DuckDB CLI  
-- 📦 **Version Control:** Git/GitHub for versioned SQL scripts  
+-  **Query Engine:** DuckDB for fast OLAP-style analytical queries  
+-  **Language:** SQL (ANSI-style with analytical functions)  
+-  **Data Model:** Star schema with fact + dimension + bridge tables  
+-  **Development:** VS Code for SQL editing + Terminal for DuckDB CLI  
+-  **Version Control:** Git/GitHub for versioned SQL scripts  
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 1_EDA/
@@ -64,7 +64,7 @@ By querying across these interconnected tables, I extracted insights about skill
 ```
 ---
 
-## 🏗 Analysis Overview
+##  Analysis Overview
 
 ### Query Structure
 
@@ -74,14 +74,14 @@ By querying across these interconnected tables, I extracted insights about skill
 
 ### Key Insights
 
-- 🧠 Core languages: SQL and Python each appear in ~29,000 job postings, making them the most demanded skills
-- ☁️ Cloud platforms: AWS and Azure are critical for modern data engineering roles- 
-- 🧱 Infra & tooling: Kubernetes, Docker, and Terraform are associated with premium salaries
-- 🔥 Big data tools: Apache Spark shows strong demand with competitive compensation
+-  Core languages: SQL and Python each appear in ~29,000 job postings, making them the most demanded skills
+-  Cloud platforms: AWS and Azure are critical for modern data engineering roles- 
+-  Infra & tooling: Kubernetes, Docker, and Terraform are associated with premium salaries
+-  Big data tools: Apache Spark shows strong demand with competitive compensation
 
 ---
 
-## 💻 SQL Skills Demonstrated
+##  SQL Skills Demonstrated
 
 ### Query Design & Optimization
 

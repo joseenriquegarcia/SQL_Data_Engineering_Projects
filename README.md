@@ -1,9 +1,16 @@
-# Data Engineering Projects
+# SQL Data Engineering Projects
 
-Hands-on projects to reinforce core data engineering concepts from the SQL for Data Engineering course.
+The following projects are a collection of SQL 
+projects that i have worked on to practice and 
+reinforce my skills w\ data engineering tools.
 
-# Projects
+> Click the project name below to view the tools I used 
+to build these!
 
-## [1_EDA/](./1_EDA/) - Exploratory Data Analysis
-![EDA Project Overview](../Resources/images/1_1_Project1_EDA.png)
-SQL-driven analysis of data engineer job market trends using advanced querying techniques.
+## Projects
+### [1. EDA](/1_EDA/) - Exploratory Data Analysis
+![EDA Project Overview](/images/1_1_Project1_EDA.png)
+
+SQL-driven analysis of data engineer job market 
+trends using advanced querying techniques.
+

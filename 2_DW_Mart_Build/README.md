@@ -4,7 +4,7 @@ An end-to-end data engineering pipeline that transforms raw CSV files from Googl
 
 ![Data Pipeline Architecture](../images/1_2_Project2_Data_Pipeline.png)
 
-##  Executive Summary (For Hiring Managers)
+##  Executive Summary
 
 - ✅ **Pipeline scope:** Built a complete **ETL pipeline** from raw CSVs to star schema warehouse to analytical marts  
 - ✅ **Data modeling:** Designed a **star schema** with fact tables, dimensions, and bridge tables for many-to-many relationships  
